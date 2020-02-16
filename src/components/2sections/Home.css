@@ -37,6 +37,7 @@
 
 @media screen and (max-width:768px){
     .home .hero{
+        width: 100%;
         flex-flow: column;
     }
     .home .hero .hero-container.one,

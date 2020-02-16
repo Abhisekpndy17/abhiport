@@ -13,7 +13,7 @@
     box-shadow: 1px 1px 5px #555;
 }
 .myInfo .myInfo-item{
-    width: 95%;
+    width: 99%;
     margin: 22px auto;
     height: 60vh;
     border-radius: 20px;
@@ -47,7 +47,6 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    
     height: 100%;
     border-radius: 20px;
 }
@@ -181,6 +180,9 @@
 
     .oneHead-item .item-one{
         margin: 0px auto;
+    }
+    .Skills-containers{
+        width: 100%;
     }
     .Skills-containers .skill-heading{
         width: 100%;
