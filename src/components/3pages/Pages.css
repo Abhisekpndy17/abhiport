@@ -130,7 +130,7 @@
 
 .Skills-containers .skill-items{
     display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(200px ,1fr));
+    grid-template-columns: repeat(auto-fit , minmax(120px ,1fr));
     grid-gap: 20px;
     width: 80%;
     margin: 20px auto;
@@ -189,7 +189,7 @@
     }
     .Skills-containers .skill-items .languages{
         height: auto;
-        width: 180px;
+        width: 120px;
         margin: 0px auto;
         
     }
