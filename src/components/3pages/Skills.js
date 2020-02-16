@@ -15,42 +15,36 @@ export default function Skills() {
                 <div className='langIcons'>
             <img src={Html} alt='asaaa' /></div>
                 <span>HTML </span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus</p>
             </div>
             <div className='languages'>
             <div className='langIcons'>
             <img src={Css} alt='dfff' />
             </div>
                 <span>CSS </span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus</p>
             </div>
             <div className='languages'>
             <div className='langIcons'>
             <img src="https://img.icons8.com/color/96/000000/javascript.png" alt='fffff'/>
             </div>
                 <span>JavaScript </span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus</p>
             </div>
             <div className='languages'>
             <div className='langIcons'>
                 <img src={ReactIcon} alt='sdfghj' />
             </div>
                 <span>ReactJS </span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus</p>
             </div>
             <div className='languages'>
             <div className='langIcons'>
             <img src={Node} alt='fgggsa'/>
             </div>
                 <span>NodeJS </span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus</p>
             </div>
             <div className='languages'>
             <div className='langIcons'>
             <img src={Git} alt='dffad' />
             </div>
                 <span>Git || Github </span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus</p>
             </div>
             </div>
         </div>

@@ -1,0 +1,32 @@
+
+footer{
+    height: auto;
+    width: 100%;
+    background: #008877;
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer .footer-item{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+@media screen and (max-width:768px){
+    footer{
+        flex-flow: column nowrap;
+    }
+    footer .footer-item{
+        width: 90%;
+        margin: 15px auto;
+    }
+}
