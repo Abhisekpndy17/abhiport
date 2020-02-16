@@ -130,9 +130,9 @@
 
 .Skills-containers .skill-items{
     display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(100px ,1fr));
+    grid-template-columns: repeat(auto-fit , minmax(200px ,1fr));
     grid-gap: 20px;
-    width: 70%;
+    width: 80%;
     margin: 20px auto;
 
     
@@ -142,7 +142,7 @@
     width: 200px;
     border-radius: 20px;
     margin: 0px auto;
-    box-shadow: 2px 2px 8px #ddd;
+    box-shadow: 2px 2px 8px rgb(206, 200, 200);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -189,12 +189,15 @@
     }
     .Skills-containers .skill-items .languages{
         height: auto;
-        width: 150px;
+        width: 180px;
         margin: 0px auto;
         
     }
     .Skills-containers .skill-items{
         padding: 0px;
+        width: 100%;
+        margin: 10px auto;
+        border:1px solid #000;
     }
 
     .Skills-containers .skill-items .languages .langIcons{
