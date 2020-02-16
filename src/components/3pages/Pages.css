@@ -1,0 +1,202 @@
+.myInfo{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.myInfo .heading{
+    padding: 6px 120px;
+    font-size: 18px;
+    background: #008877;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #555;
+}
+.myInfo .myInfo-item{
+    border: px solid #000;
+    width: 95%;
+    margin: 22px auto;
+    height: 60vh;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInfo-item .info-pic{
+    height: 180px;
+    width: 180px;
+    margin: 10px 0px;
+    border-radius: 30px 30px 10px 10px;
+    background: url(../images/abhi2.png) no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 6px #000;
+}
+.myInfo-item span{
+    color: #008877;
+}
+.myInfo-item .info-social-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutOne{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    border-radius: 20px;
+}
+
+.aboutOne .heading-one{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    margin: 0px auto;
+    box-shadow: 2px 2px 8px #000;
+}
+.oneHead-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px , 1fr));
+    grid-gap: 10px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.oneHead-item .item-one{
+    height: 100px;
+    width: 280px;
+    box-shadow: 1px 1px 5px #333;
+    border-radius: 10px;
+}
+
+
+.Social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    height: 80px;
+    border-radius: 20px;
+    width: 98%;
+    margin: 0px auto;
+
+}
+.Social-media .social-links-items{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin: 18px 8px;
+    padding: 6px;
+    box-shadow: 1px 1px 6px rgb(133, 126, 126);
+}
+.Social-media .social-links-items img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1px;
+}
+
+
+
+/* skillllllllll components style*/
+.Skills-containers{
+    border: 1px solid #333;
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.Skills-containers .skill-heading{
+    height: 50px;
+    width: 80%;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Skills-containers .skill-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px ,1fr));
+    grid-gap: 20px;
+    width: 70%;
+    margin: 20px auto;
+    
+}
+.Skills-containers .skill-items .languages{
+    height: auto;
+    width: 200px;
+    border-radius: 10px 30px 10px 30px;
+    margin: 0px auto;
+    box-shadow: 2px 2px 8px #000;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+}
+.languages p{
+    color: #000;
+    padding: 10px;
+    text-align: center;
+}
+.languages span{
+    color: chocolate;
+    text-transform: capitalize;
+    font-size: 1.4em;
+}
+
+.langIcons{
+    height: 70px;
+    width: 80px;
+    box-shadow: 1px 1px 5px #000;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+.langIcons img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width:768px){
+
+    .oneHead-item .item-one{
+        margin: 0px auto;
+    }
+    .Skills-containers .skill-heading{
+        width: 100%;
+    }
+    .Skills-containers .skill-items .languages{
+        height: auto;
+        width: 100%;
+        margin: 0px auto;
+        
+    }
+    .Skills-containers .skill-items .languages .langIcons{
+        height: 70px;
+        width: 80px;
+        box-shadow: 1px 1px 5px #000;
+        margin: 10px 0px;
+        border-radius: 10px;
+    }
+}

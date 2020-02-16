@@ -1,0 +1,33 @@
+
+
+.About-heading{
+    width: 80%;
+    height: 120px;
+    box-shadow: 1px 1px 6px #000;
+    margin: 10px auto;
+    background: #ccc;
+    border-radius: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 8px #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 700;
+    color: #333;
+}
+.about-hero{
+    height: auto;
+    
+    width: 90%;
+    margin: 0px auto;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:768px){
+
+}
