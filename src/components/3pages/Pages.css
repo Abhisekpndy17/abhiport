@@ -193,6 +193,10 @@
         margin: 0px auto;
         
     }
+    .Skills-containers .skill-items{
+        width: 86%;
+    }
+
     .Skills-containers .skill-items .languages .langIcons{
         height: 70px;
         width: 80px;
