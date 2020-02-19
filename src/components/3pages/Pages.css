@@ -79,10 +79,9 @@
 
 .Social-media{
     display: flex;
-    background: #fff;
     justify-content: center;
     align-items: center;
-    border: 1px solid #fff;
+    
     height: 80px;
     border-radius: 20px;
     width: 98%;
@@ -91,6 +90,7 @@
 }
 .Social-media .social-links-items{
     height: 40px;
+    background: #ddd;
     width: 40px;
     border-radius: 5px;
     margin: 18px 8px;
@@ -98,7 +98,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 1px 6px rgb(49, 46, 46);
+    box-shadow: .1px .1px 2px rgb(49, 46, 46);
 }
 .Social-media .social-links-items img{
     width: 100%;
@@ -140,7 +140,7 @@
 .skill-items .skill-content{
     height: auto;
     width: 90%;
-    padding: 20px;
+    padding: 20px 10px;
     margin: 10px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(300px ,1fr));
@@ -171,9 +171,42 @@
     color: #1a2524;
     font-size: 18px;
     font-weight: 500;
+
 }
 
-
+.address{
+    height: auto;
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.address .address-heading{
+    height: 100px;
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 20px;
+    background: #a3a2a2;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: center;
+}
+.address .address-container{
+    font-size: 18px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.address .address-container h4,
+.address .address-container h5,
+.address .address-container p{
+    color: #ddd;
+    padding: 1px;
+    letter-spacing: .5px;
+}
 
 
 @media screen and (max-width:768px){
