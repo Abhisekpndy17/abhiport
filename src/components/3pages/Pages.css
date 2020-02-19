@@ -10,7 +10,7 @@
     background: #008877;
     color: #000;
     border-radius: 10px;
-    box-shadow: 1px 1px 5px #555;
+    box-shadow: 1px 1px 5px rgb(228, 224, 224);
 }
 .myInfo .myInfo-item{
     width: 99%;
@@ -56,29 +56,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     border-radius: 20px;
     margin: 0px auto;
-    box-shadow: 2px 2px 8px #000;
+    box-shadow: 2px 2px 8px #ddd;
 }
 .oneHead-item {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px , 1fr));
     grid-gap: 10px;
-    width: 90%;
-    margin: 20px auto;
+    width: 99%;
+    margin: 30px auto;
 }
 
 .oneHead-item .item-one{
-    height: 100px;
-    width: 280px;
-    box-shadow: 1px 1px 5px #333;
+    height: 110px;
+    width: 250px;
+    box-shadow: 1px 1px 5px #ddd;
     border-radius: 10px;
 }
 
 
 .Social-media{
     display: flex;
+    background: #fff;
     justify-content: center;
     align-items: center;
     border: 1px solid #fff;
@@ -94,7 +95,10 @@
     border-radius: 5px;
     margin: 18px 8px;
     padding: 6px;
-    box-shadow: 1px 1px 6px rgb(133, 126, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 6px rgb(49, 46, 46);
 }
 .Social-media .social-links-items img{
     width: 100%;
@@ -107,7 +111,8 @@
 /* skillllllllll components style*/
 .Skills-containers{
     height: auto;
-    width: 90%;
+    background: #ddd;
+    width: 98%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -129,49 +134,44 @@
 }
 
 .Skills-containers .skill-items{
-    display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(120px ,1fr));
-    grid-gap: 20px;
-    width: 80%;
-    margin: 20px auto;
-
-    
-}
-.Skills-containers .skill-items .languages{
-    height: auto;
-    width: 200px;
-    border-radius: 20px;
-    margin: 0px auto;
-    box-shadow: 2px 2px 8px rgb(206, 200, 200);
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    color: #ddd;
-}
-.languages p{
-    color: #000;
-    padding: 10px;
-    text-align: center;
-}
-.languages span{
-    color: #008877;
-    font-weight: 500;
-    font-size: 1.1em;
-}
-
-.langIcons{
-    height: 70px;
-    width: 90px;
-    box-shadow: .1px .1px 5px #ddd;
-    margin: 10px 0px;
-    border-radius: 10px;
-}
-.langIcons img{
-    height: 100%;
     width: 100%;
+    margin: 20px;
+}
+.skill-items .skill-content{
+    height: auto;
+    width: 90%;
+    padding: 20px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px ,1fr));
+    grid-gap: 20px;
 }
 
+.skill-items .skill-content .skill-language{
+    height: 120px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 4px #7e7d7d;
+}
+.skill-img{
+    box-shadow: 1px 1px 4px #a3a2a2;
+    height: 70px;
+    width: auto;
+    border-radius: 10px;
+    padding: 2px;
+}
+.skill-img img{
+    height: 100%;
+}
+.skills{
+    color: #1a2524;
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
 
@@ -179,6 +179,7 @@
 @media screen and (max-width:768px){
 
     .oneHead-item .item-one{
+        width: 90%;
         margin: 0px auto;
     }
     .Skills-containers{
@@ -187,24 +188,21 @@
     .Skills-containers .skill-heading{
         width: 100%;
     }
-    .Skills-containers .skill-items .languages{
-        height: auto;
-        width: 120px;
-        margin: 0px auto;
-        
+    .skill-items .skill-content .skill-language{
+    height: 90px;
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 1px 4px #929090;
     }
-    .Skills-containers .skill-items{
-        padding: 0px;
-        width: 100%;
-        margin: 10px auto;
-        border:1px solid #000;
-    }
-
-    .Skills-containers .skill-items .languages .langIcons{
-        height: 70px;
-        width: 80px;
-        box-shadow: 0px 0px 5px #bbb;
-        margin: 10px 0px;
+    .skill-img{
+        box-shadow: 1px 1px 4px #a3a2a2;
+        height: 60px;
+        width: auto;
         border-radius: 10px;
+        padding: 2px;
     }
 }

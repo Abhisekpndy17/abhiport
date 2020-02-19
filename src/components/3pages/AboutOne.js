@@ -6,7 +6,10 @@ export default function AboutOne() {
         <div className='aboutOne'>
             <div className='heading-one'>Heading-One</div>
             <div className='oneHead-item'>
-                <div className='item-one'></div>
+                <div className='item-one'>
+                    <div className=''></div>
+                    <div className=''></div>
+                </div>
                 <div className='item-one'></div>
                 <div className='item-one'></div>
                 <div className='item-one'></div>
