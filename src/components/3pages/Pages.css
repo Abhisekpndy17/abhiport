@@ -188,6 +188,10 @@
     .Skills-containers .skill-heading{
         width: 100%;
     }
+    .skill-items .skill-content{
+        width: 98%;
+        margin: 0px auto;
+    }
     .skill-items .skill-content .skill-language{
     height: 90px;
     width: 95%;
