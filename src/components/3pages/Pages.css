@@ -209,6 +209,43 @@
 }
 
 
+
+
+
+
+.contact-us{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.contact-us .contact-us-container{
+    width: 95%;
+    margin: 0px auto;
+}
+.Contact-item{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Contact-item .Contact-it{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.Contact-item .Contact-it .contact-img{
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+}
+.Contact-item .Contact-it .contact-img img{
+    height: 100%;
+    width: 100%;
+}
+
+
 @media screen and (max-width:768px){
 
     .oneHead-item .item-one{

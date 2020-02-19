@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import SocialLinks from '../3pages/SocialIcons';
 import Address from '../3pages/Address';
+import ContactUs from '../3pages/ContactUs';
 
 export default function Footer() {
     return (
@@ -10,9 +11,11 @@ export default function Footer() {
                 <Address />
             </div>
             <div className='footer-item'>
-                <SocialLinks />
+                <ContactUs />
             </div>
-            <div className='footer-item'></div>
+            <div className='footer-item'>
+            <SocialLinks />
+            </div>
         </footer>
     )
 }
