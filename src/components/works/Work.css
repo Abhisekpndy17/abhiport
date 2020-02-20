@@ -1,11 +1,54 @@
 .work{
     height: 100vh;
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
-    background: #000;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
+}
+.work .work-container{
+    height: 90vh;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0px auto;
+    background: #000;
+    background: url(../images/dark.jpg) no-repeat, #333;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.work-container h2{
+    font-size: 28vw;
+    line-height: 1em;
+}
+.work-container h4{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #111;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.work-container p{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0px 20px;
+}
+
+
+@media screen and (max-width:768px){
+    .work .work-container{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .work-container h2{
+        font-size: 38vw;
+        line-height: 1em;
+    }
 }
