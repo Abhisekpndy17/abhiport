@@ -65,6 +65,7 @@ nav .navLinks li .link:hover{
         margin: 0px 5px;
         box-shadow: 1px 1px 5px #333;
         padding: 8px;
+        cursor: pointer;
     }
     .hamburger .line{
         width: 32px;
