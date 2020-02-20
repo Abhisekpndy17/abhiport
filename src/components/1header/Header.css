@@ -43,7 +43,7 @@ nav .navLinks li .link{
     transition: .3s ease;
 }
 nav .navLinks li .link:hover{
-    padding: 1px;
+    padding: 8px 17px;
 }
 .OnActiveClass{
     background: #ff6464;

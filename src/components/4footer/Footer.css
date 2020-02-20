@@ -1,5 +1,5 @@
 
-footer{
+.footer{
     height: auto;
     width: 100%;
     background: #1f2020;
@@ -21,12 +21,31 @@ footer .footer-item{
     border-radius: 10px;
     
 }
+.footer-last{
+    height: 120px;
+    width: 100%;
+    padding: 10px 0px;
+    background: #1f2020;
+    color: #fff;
+}
+
+.footer-last .foot-last-content{
+    width: 90%;
+    height: 100px;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px #ddd;
+}
 
 @media screen and (max-width:768px){
-    footer{
+    .footer{
         flex-flow: column nowrap;
     }
-    footer .footer-item{
+    .footer .footer-item{
         width: 90%;
         margin: 15px auto;
     }
