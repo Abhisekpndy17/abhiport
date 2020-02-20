@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 
 export default class Header extends Component {
     state= {
-        isOpen : false,
+        isOpen : true,
     }
 
     render() {
