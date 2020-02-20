@@ -1,7 +1,7 @@
 .work{
     height: 100vh;
     width: 100%;
-    margin: 10px auto;
+    margin: 1px auto;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -9,12 +9,12 @@
     color: #fff;
 }
 .work .work-container{
-    height: 90vh;
+    height: 100vh;
     border-radius: 10px;
     width: 90%;
     margin: 0px auto;
     background: #000;
-    background: url(../images/dark.jpg) no-repeat, #333;
+    background: linear-gradient(45deg, #ccc , #000);
     background-size: cover;
     display: flex;
     flex-flow: column nowrap;
