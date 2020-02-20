@@ -62,11 +62,13 @@ nav .navLinks li .link:hover{
         right: 10px;
         background: #008877;
         border-radius: 10px;
-        margin: 0px 5px;
-        box-shadow: 1px 1px 5px #333;
-        padding: 8px;
+        margin: 0px 5px;            
+        box-shadow: inset -6px -6px 10px rgba(255, 255, 255, .1),
+                    inset 6px 6px 10px rgba(0, 0, 0, .1);
+        padding: 10px;
         cursor: pointer;
     }
+    
     .hamburger .line{
         width: 32px;
         height: 4px;
@@ -79,13 +81,14 @@ nav .navLinks li .link:hover{
         right: -100%;
         top: 1vh;
         height: 10vh;
+        width: 100%;
         background: #008877;
         border-radius: 10px;
         padding: 20px;
         transition: 1s ease;
     }
     .navLinks.open{
-        right: 80px;
+        right: 0px;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-evenly;

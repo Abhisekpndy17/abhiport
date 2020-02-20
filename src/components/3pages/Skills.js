@@ -1,6 +1,7 @@
 import React from 'react';
 import './Pages.css';
 import Html from '../images/html.png';
+import JavaScript from '../images/javascript.png';
 import Css from '../images/css.png';
 import ReactIcon from '../images/react.png';
 import Node from '../images/node.png';
@@ -26,7 +27,7 @@ export default function Skills() {
                 </div>
                 <div className='skill-language'>
                     <div className='skill-img'>
-                    <img src={Html} alt='dddd'/>
+                    <img src={JavaScript} alt='dddd'/>
                     </div>
                     <div className='skills'>JavaScript</div>
                 </div>
