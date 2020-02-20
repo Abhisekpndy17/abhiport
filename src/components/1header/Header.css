@@ -81,14 +81,14 @@ nav .navLinks li .link:hover{
         right: -100%;
         top: 1vh;
         height: 10vh;
-        width: 100%;
+        width: 80%;
         background: #008877;
         border-radius: 10px;
         padding: 20px;
         transition: 1s ease;
     }
     .navLinks.open{
-        right: 20px;
+        right: 20%;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-around;
