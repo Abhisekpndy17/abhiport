@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Header.css';
 import {NavLink} from 'react-router-dom';
+import Menu from '../images/menu.png';
+import Cross from '../images/multi.png';
 
 export default class Header extends Component {
     state= {
@@ -20,9 +22,8 @@ export default class Header extends Component {
                         className='hamburger'
                         onClick={()=>this.setState({isOpen: !this.state.isOpen})} 
                     >
-                    <div className='line'></div>
-                    <div className='line'></div>
-                    <div className='line'></div>
+                    <div className={this.state.isOpen ? "line" : "line close"}>
+                    </div>
                     </div>
                     
                 </nav>

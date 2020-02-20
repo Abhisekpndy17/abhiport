@@ -60,21 +60,30 @@ nav .navLinks li .link:hover{
     .hamburger {
         position: fixed;
         right: 10px;
-        background: #008877;
+        
         border-radius: 10px;
         margin: 0px 5px;            
-        box-shadow: inset -6px -6px 10px rgba(255, 255, 255, .1),
-                    inset 6px 6px 10px rgba(0, 0, 0, .1);
-        padding: 10px;
+        
+        padding: 0px;
         cursor: pointer;
     }
     
     .hamburger .line{
-        width: 32px;
-        height: 4px;
+        width: 60px;
+        height: 60px;
         border-radius: 10px;
-        margin: 5px;
-        background: #fff;
+        background: url(../images/menu.png) no-repeat;
+        background-size: cover;
+        transition: 1s ease;
+    }
+    .line.close{
+        background: url(../images/multi.png) no-repeat, #ffffff;
+        border-radius: 50%;
+        background-size: cover;
+    }
+    .hamburger .line img{
+        height: 100%;
+        width: auto;
     }
     nav .navLinks{
         position: fixed;
