@@ -12,7 +12,7 @@ export default function ContactUs() {
                     <div className='contact-img'>
                     <img src={Email} alt="jhgfds" />
                     </div>
-                    <h2>have any queery?</h2>
+                    <h2>have any query ?</h2>
                 </div>
                 <div className='Contact-it'>
                     abhishekpandey@gmail.com
